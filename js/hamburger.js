@@ -7,7 +7,7 @@ menuBtn.addEventListener('click', function(){
 })
 menu.addEventListener('click', () => {
     menu.classList.remove('active');
-    menu.classList.remove('active');
+    menuBtn.classList.remove('active');
 });
 li.addEventListener('click', () => {
     menu.classList.remove('active');
